@@ -1,0 +1,9 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Editor local do catálogo</title><style>body{max-width:1100px;margin:30px auto;padding:0 18px;font-family:Segoe UI,Arial;background:#f3f6fa;color:#172235}textarea{width:100%;min-height:430px;padding:14px;font-family:Consolas,monospace}button,input{padding:11px;margin:5px;border:1px solid #ccd7e4;border-radius:8px}.box{background:white;padding:20px;border-radius:14px;margin:15px 0}.warn{color:#a14d00}</style></head><body><h1>Editor local do catálogo</h1><p class="warn"><b>Este editor funciona somente no seu computador.</b> O GitHub Pages não salva alterações diretamente.</p><div class="box"><p>Carregue um <code>data.js</code> existente ou edite o JSON abaixo. Depois baixe o novo arquivo e envie ao GitHub substituindo o anterior.</p><input id="load" type="file" accept=".js,.json"><button id="download">Baixar data.js</button></div><textarea id="json">[]</textarea><div class="box"><h2>Modelo de pátio</h2><pre>{
+  "id": "FSJ",
+  "nome": "São José dos Campos",
+  "arquivo": "docs/EE-GA-0FSJ.pdf",
+  "paginas": 5,
+  "abrs": [
+    {"nome":"ABR05","codigo":"FSJ01","km":"387+244","pagina":1,"maps":"https://..."}
+  ]
+}</pre></div><script>const j=document.querySelector('#json');document.querySelector('#load').onchange=async e=>{let t=await e.target.files[0].text(),m=t.match(/window\.PATIOS\s*=\s*([\s\S]*);\s*$/);try{j.value=JSON.stringify(JSON.parse(m?m[1]:t),null,2)}catch{alert('Arquivo inválido')}};document.querySelector('#download').onclick=()=>{try{let o=JSON.parse(j.value),b=new Blob(['window.PATIOS = '+JSON.stringify(o,null,2)+';\n'],{type:'text/javascript'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='data.js';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}catch(e){alert('JSON inválido: '+e.message)}};</script></body></html>
