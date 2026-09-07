@@ -1,0 +1,2 @@
+Coloque os PDFs nesta pasta. O nome usado em data.js deve ser exatamente igual ao nome do arquivo.
+Exemplo: docs/EE-GA-0FSJ.pdf

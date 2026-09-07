@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0864d7">
+  <title>Portal de Pátios</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <div><small>CONSULTA DE EQUIPAMENTOS</small><h1>Portal de Pátios</h1></div>
+  <button id="themeBtn" type="button">◐ Tema</button>
+</header>
+<nav>
+  <button class="tab active" data-tab="patios">Pátios</button>
+  <button class="tab" data-tab="pesquisa">Pesquisa</button>
+  <button class="tab" data-tab="documentos">Documentos</button>
+</nav>
+<main>
+  <section id="patios" class="panel active">
+    <div class="hero"><div><span>ACESSO RÁPIDO</span><h2>Diagramas, ABRs e localizações em um único lugar</h2><p>Consulta pública pelo celular ou computador.</p></div><strong id="stats">Carregando...</strong></div>
+    <div id="yardCards" class="grid"></div>
+  </section>
+  <section id="pesquisa" class="panel">
+    <h2>Pesquisar ABRs</h2>
+    <div class="filters">
+      <input id="search" placeholder="ABR, código, KM ou pátio">
+      <select id="yardFilter"><option value="">Todos os pátios</option></select>
+      <input id="kmStart" placeholder="KM inicial, ex.: 387+000">
+      <input id="kmEnd" placeholder="KM final, ex.: 410+000">
+      <button id="clearBtn">Limpar</button>
+    </div>
+    <p id="resultCount" class="muted"></p><div id="results" class="grid"></div>
+  </section>
+  <section id="documentos" class="panel"><h2>Documentos</h2><div id="docCards" class="grid"></div></section>
+</main>
+<div id="viewer" class="modal" aria-hidden="true"><div class="viewer"><div class="viewerbar"><div><b id="viewerTitle"></b><small id="viewerSub"></small></div><div><button id="pdfTheme">◑ PDF</button><a id="newTab" target="_blank" rel="noopener">Abrir</a><button id="closeViewer">✕</button></div></div><iframe id="pdfFrame" title="Visualizador de PDF"></iframe></div></div>
+<div id="toast"></div>
+<script src="data.js"></script><script src="assets/app.js"></script>
+</body></html>
