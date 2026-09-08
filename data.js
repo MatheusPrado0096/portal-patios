@@ -426,7 +426,7 @@ window.PATIOS = [
         "codigo": "FRE06",
         "km": "427+072",
         "pagina": 3,
-        "maps":https:""
+        "maps":""
       }
     ]
   },
