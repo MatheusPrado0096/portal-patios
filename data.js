@@ -539,9 +539,9 @@ window.PATIOS = [
       {
         "tipo": "PN",
         "nome": "PN 05",
-        "codigo": "FGA-PN02",
+        "codigo": "FGA-PN01",
         "km": "",
-        "pdf": "docs/equipamentos/FGA-PN02.pdf",
+        "pdf": "docs/equipamentos/FGA-PN01.pdf",
         "link": "https://maps.app.goo.gl/yZmFkpbJ6MrEi7HA9?g_st=aw"
       },
       {
