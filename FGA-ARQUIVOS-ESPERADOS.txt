@@ -1,0 +1,3 @@
+Arquivos esperados para FGA:
+- FGA-PN01.pdf
+- FGA-PN02.pdf
