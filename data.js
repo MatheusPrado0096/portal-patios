@@ -135,7 +135,7 @@ window.PATIOS = [
     "nome": "São José dos Campos",
     "categoria": "ABRIGO",
     "label": "Abrigos",
-    "planta": "docs/plantas/FSJ.pdf",
+    "planta": "docs/plantas/EE-GA-0FSJ.pdf",
     "itens": [
       {
         "tipo": "Abrigo",
