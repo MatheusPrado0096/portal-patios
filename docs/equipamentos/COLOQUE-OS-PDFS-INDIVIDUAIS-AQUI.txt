@@ -1,0 +1,1 @@
+Cada Abrigo, CX ou PN deve possuir seu próprio PDF, que pode ter várias páginas. O nome deve corresponder ao campo pdf em data.js.
