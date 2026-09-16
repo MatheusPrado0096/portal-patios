@@ -150,7 +150,7 @@ window.PATIOS = [
         "nome": "ABR10",
         "codigo": "FSJ02",
         "km": "",
-        "pdf": "docs/equipamentos/FSJ02.pdf",
+        "pdf": "docs/equipamentos/FSJ2_ABR10.pdf",
         "link": ""
       },
       {
