@@ -533,24 +533,24 @@ window.PATIOS = [
     "id": "FGA",
     "nome": "FGA",
     "categoria": "CX_PN",
-    "label": "CX e PN",
+    "label": "PN",
     "planta": "docs/plantas/FGA.pdf",
     "itens": [
       {
-        "tipo": "CX",
-        "nome": "CX01",
-        "codigo": "FGA-CX01",
-        "km": "",
-        "pdf": "docs/equipamentos/FGA-CX01.pdf",
-        "link": ""
-      },
-      {
         "tipo": "PN",
-        "nome": "PN02",
+        "nome": "PN 05",
         "codigo": "FGA-PN02",
         "km": "",
         "pdf": "docs/equipamentos/FGA-PN02.pdf",
-        "link": ""
+        "link": "https://maps.app.goo.gl/yZmFkpbJ6MrEi7HA9?g_st=aw"
+      },
+      {
+        "tipo": "PN",
+        "nome": "PN 10",
+        "codigo": "FGA-PN02",
+        "km": "",
+        "pdf": "docs/equipamentos/FGA-PN02.pdf",
+        "link": "https://maps.app.goo.gl/S7Tv3CBi7UshbXrp6?g_st=aw"
       }
     ]
   },
@@ -562,20 +562,12 @@ window.PATIOS = [
     "planta": "docs/plantas/FCE.pdf",
     "itens": [
       {
-        "tipo": "CX",
-        "nome": "CX01",
-        "codigo": "FCE-CX01",
+        "tipo": "FCE ESTAÇÃO",
+        "nome": "FCE ESTAÇÃO",
+        "codigo": "FCE ESTAÇÃO",
         "km": "",
         "pdf": "docs/equipamentos/FCE-CX01.pdf",
-        "link": ""
-      },
-      {
-        "tipo": "CX",
-        "nome": "CX02",
-        "codigo": "FCE-CX02",
-        "km": "",
-        "pdf": "docs/equipamentos/FCE-CX02.pdf",
-        "link": ""
+        "link": "https://maps.app.goo.gl/NQg6XBGrz9FHWg9g8?g_st=aw"
       }
     ]
   }
