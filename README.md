@@ -1,25 +1,11 @@
-# Portal de Pátios - FGA atualizado
+# Portal de Pátios MRS V5
 
-O projeto foi sincronizado com o trecho informado do `data.js`.
+## Pátios
+- Abrigos: FCA, FEA, FEM, FSJ, FPA, FRE, FIP, FST, FPI e IEF.
+- CX e PN: FGA.
+- CX: FCE.
 
-## FGA
+O botão **Abrir planta** foi mantido em todos os pátios.
+Cada Abrigo, CX ou PN possui um caminho para seu próprio PDF, que pode ter várias páginas, e um campo `link`.
 
-- PN 05
-  - Código: `FGA-PN01`
-  - PDF: `docs/equipamentos/FGA-PN01.pdf`
-  - Botão: `📍 Localização`
-
-- PN 10
-  - Código: `FGA-PN02`
-  - PDF: `docs/equipamentos/FGA-PN02.pdf`
-  - Botão: `📍 Localização`
-
-## Estrutura do código
-
-- `assets/js/catalog.js`: cartões, categorias e localização.
-- `assets/js/main.js`: cliques, navegação e eventos.
-- `assets/js/pdf-viewer.js`: PDF, páginas, zoom e exportação.
-- `assets/js/theme.js`: tema claro e escuro.
-- `data.js`: dados dos pátios e equipamentos.
-
-Os links devem permanecer como URL simples no `data.js`, sem código HTML `<a>`.
+Edite `data.js` para completar a lista real, nomes, KMs, PDFs e links.
