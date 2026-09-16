@@ -151,7 +151,7 @@ window.PATIOS = [
         "codigo": "FSJ02",
         "km": "",
         "pdf": "docs/equipamentos/FSJ2_ABR10.pdf",
-        "link": ""
+        "link": "https://share.google/qtDVyaCvPL9WmGeMN"
       },
       {
         "tipo": "Abrigo",
